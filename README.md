@@ -29,10 +29,19 @@ Here are a couple of links to archives full of zines:
 
 Here are resources to create your own web-based digital zines:
 * [School for Poetic Computation](https://sfpc.study/about)
-* 
+* [HTML Energy](https://html.energy/index.html)
+* [freecodecamp](https://www.freecodecamp.org/)
+* [The HTML Review](https://thehtml.review/about)
+* [Taper Magazine](https://taper.badquar.to/)
+* [Neocities](https://neocities.org/)
+* [Hotglue](https://hotglue.me/what)
+* [Standing on My Soapbox Lovingly Lecturing About Zines by Melissa Mursch-Rodriguez](https://syllabusproject.org/standing-on-my-soapbox-lovingly-lecturing-about-zines/)
+* [Sprout Distro](https://www.sproutdistro.com/)
+* [Twine](https://twinery.org/)
+* [Bitsy](https://bitsy.org/)
 
 Stay cool.
 
 No, seriously, it's hot as fucking hell out there.
 
-P.S. Check out this 
+P.S. Check out this beautiful exhibit under the Surface Design Association called [_T3%+!le$: The Language of Fiber_](https://www.surfacedesign.org/events-exhibits/exhibits/t3le-the-language-of-fiber/#gallery). I find it super inspiring.
