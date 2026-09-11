@@ -1,7 +1,12 @@
-# Web zines to save the world and everything we hold dear 
+# Web zines to save the world (and everything we hold dear) 
 
 Hey! This is fuzzee machines. I work a lot of with machines, textiles, and computational craft. I started this web zine to 
-basically encourage others to use/learn HTML/CSS/Javascript/Python to make their own weird web zines.
+basically encourage others to use the following to make their own weird web zines:
+
+* HTML
+* CSS
+* Javascript
+* Python
 
 I think zines are cool and being able to preserve physical and digital histories that we have made now or in the 
 past are perhaps more important than ever. 
