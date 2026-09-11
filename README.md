@@ -44,4 +44,4 @@ Stay cool.
 
 No, seriously, it's hot as fucking hell out there.
 
-P.S. Check out this beautiful exhibit under the Surface Design Association called [_T3%+!le$: The Language of Fiber_](https://www.surfacedesign.org/events-exhibits/exhibits/t3le-the-language-of-fiber/#gallery). I find it super inspiring.
+**P.S.** Check out this beautiful exhibit under the Surface Design Association called [_T3%+!le$: The Language of Fiber_](https://www.surfacedesign.org/events-exhibits/exhibits/t3le-the-language-of-fiber/#gallery). I find it super inspiring.
