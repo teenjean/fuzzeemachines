@@ -39,6 +39,7 @@ Here are resources to create your own web-based digital zines:
 * [Sprout Distro](https://www.sproutdistro.com/)
 * [Twine](https://twinery.org/)
 * [Bitsy](https://bitsy.org/)
+* [p5.js](https://p5js.org/) - visual Javascript library >:3
 
 Stay cool.
 
