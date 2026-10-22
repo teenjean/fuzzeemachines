@@ -101,7 +101,7 @@ main {
   transform: rotate(0deg);
 }
 .column a:hover .overlay-how {
-  transform: translate(50px, 5px) rotate(-8deg);
+  transform: translate(100px, 100px) rotate(0deg);
 }
 
 .overlay-issues-1 {
