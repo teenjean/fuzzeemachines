@@ -103,9 +103,9 @@ main {
 }
 
 /* Trigger the combined color distortion and layout shifting when hovering the anchor link */
-.column a:hover .nav-img {
+.column a:hover > *:not(::after) {
   filter: contrast(1.4) saturate(1.7) hue-rotate(12deg);
-  animation: vhs-jitter 0.12s infinite; /* Moves only the image pixels */
+  animation: vhs-jitter 0.12s infinite; /* Isolates the jitter shake strictly to the asset */
 }
 
 .column a:hover::after {
