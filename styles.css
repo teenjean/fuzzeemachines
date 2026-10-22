@@ -52,3 +52,51 @@ main {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+.column::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), 
+  linear-gradient(
+    90deg, 
+    rgba(255, 0, 0, 0.06), 
+    rgba(0, 255, 0, 0.02), 
+    rgba(0, 0, 255, 0.06)
+  );
+  background-size: 100% 4px, 6px 100%;
+  
+  opacity: 0;
+  pointer-events: none; 
+}
+
+.column:hover .nav-img {
+  /* Chromatic aberration tint shifts (RGB separation) */
+  filter: contrast(1.4) saturate(1.6) hue-rotate(10deg);
+  animation: vhs-jitter 0.15s infinite;
+}
+
+.column:hover::after {
+  opacity: 1;
+  animation: vhs-scroll 4s linear infinite;
+}
+
+@keyframes vhs-scroll {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+@keyframes vhs-jitter {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-1px, 2px); }
+  40% { transform: translate(1px, -1px); }
+  60% { transform: translate(-2px, -2px); }
+  80% { transform: translate(2px, 1px); }
+  100% { transform: translate(0, 0); }
