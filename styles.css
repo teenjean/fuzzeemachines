@@ -85,8 +85,8 @@ main {
 }
 
 .overlay-about {
-  top: -15px;
-  right: -10px;
+  top: -5px;
+  right: -5px;
   width: 80%; /* Optional: resize if needed */
   transform: rotate(0deg);
 }
