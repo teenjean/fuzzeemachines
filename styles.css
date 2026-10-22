@@ -104,8 +104,8 @@ main {
 
 /* Trigger the combined color distortion and layout shifting when hovering the anchor link */
 .column a:hover .nav-img {
-  filter: contrast(1.4) saturate(1.6) hue-rotate(10deg);
-  animation: vhs-jitter 0.12s infinite;
+  filter: contrast(1.4) saturate(1.7) hue-rotate(12deg);
+  animation: vhs-jitter 0.12s infinite; /* Moves only the image pixels */
 }
 
 .column a:hover::after {
@@ -113,18 +113,16 @@ main {
   animation: vhs-scroll 3s linear infinite;
 }
 
-/* Keyframes for the analog tracking tape roll vertical sweep */
 @keyframes vhs-scroll {
   0% { background-position: 0 0; }
   100% { background-position: 0 100%; }
 }
 
-/* Keyframes for the tracking horizontal wobble twitch distortion */
 @keyframes vhs-jitter {
-  0% { transform: translate(0, 0); }
-  20% { transform: translate(-2px, 1px); }
-  40% { transform: translate(1px, -1px); }
-  60% { transform: translate(-1px, -2px); }
-  80% { transform: translate(2px, 2px); }
-  100% { transform: translate(0, 0); }
+  0% { transform: scale(1) translate(0, 0); }
+  20% { transform: scale(1.01) translate(-2px, 1px); } 
+  40% { transform: scale(0.99) translate(1px, -1px); }
+  60% { transform: scale(1.01) translate(-1px, -2px); }
+  80% { transform: scale(1) translate(2px, 2px); }
+  100% { transform: scale(1) translate(0, 0); }
 }
