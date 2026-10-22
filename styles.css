@@ -8,3 +8,11 @@ body {
     color: #1b1b1f;
     background-color: lemonchiffon;
 }
+
+.nav-img {
+  max-width: 100%;  
+  height: 200px;     
+  display: block;   
+}
+
+
