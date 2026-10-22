@@ -91,7 +91,7 @@ main {
   transform: rotate(0deg);
 }
 .column a:hover .overlay-about {
-  transform: translate(-25px, -25px) rotate(6deg);
+  transform: translate(-25px, -50px) rotate(6deg);
 }
 
 .overlay-how {
@@ -101,7 +101,7 @@ main {
   transform: rotate(0deg);
 }
 .column a:hover .overlay-how {
-  transform: translate(-12px, 15px) rotate(-8deg);
+  transform: translate(50px, 5px) rotate(-8deg);
 }
 
 .overlay-issues-1 {
@@ -111,7 +111,7 @@ main {
   transform: rotate(0deg);
 }
 .column a:hover .overlay-issues-1 {
-  transform: translate(-10px, -15px) rotate(-12deg);
+  transform: translate(30px, -40px) rotate(-12deg);
 }
 
 .overlay-issues-2 {
@@ -121,5 +121,5 @@ main {
   transform: rotate(0deg);
 }
 .column a:hover .overlay-issues-2 {
-  transform: translate(18px, 12px) rotate(10deg);
+  transform: translate(40px, -30px) rotate(10deg);
 }
