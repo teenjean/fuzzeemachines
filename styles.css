@@ -61,3 +61,35 @@ main {
   transform: rotate(4deg) scale(1.02); 
   filter: contrast(1.1);               
 }
+
+.floating-hover-text {
+  position: fixed;            /* Bypasses all grid structures to lock onto screen space coordinates */
+  z-index: 100;               /* Displays directly in front of images or backgrounds */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1b1b1f;
+  pointer-events: none;       /* Guarantees the text doesn't block link clicks or mouse moves */
+  background-color: transparent;
+  padding: 4px 8px;
+  
+  animation: floatFadeOut 1.5s ease-out forwards;
+}
+
+@keyframes floatFadeOut {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  15% {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-15px); /* Drifts gently upwards before vanishing */
+  }
+}
