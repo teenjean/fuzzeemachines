@@ -40,7 +40,6 @@ main {
   min-width: 0;                
 }
 
-/* 1. Set position relative on the link wrapper inside each column */
 .column a {
   display: block;
   position: relative;
@@ -59,12 +58,10 @@ main {
   vertical-align: middle;
 }
 
-/* Base image & overlay transition setup */
 .column a > img {
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
-/* 2. Absolute positioning for overlay images */
 .overlay-img {
   position: absolute;
   top: 0;
@@ -76,7 +73,7 @@ main {
   pointer-events: none; /* Prevents hover flickering */
 }
 
-/* 3. Combined Hover Effects */
+
 .column a:hover .nav-img {
   filter: contrast(1.1);
   transform: rotate(-2deg) scale(1.01);
@@ -84,6 +81,45 @@ main {
 
 .column a:hover .overlay-img {
   opacity: 1;
-  /* Combines rotate/scale with offset translation for the collage effect */
   transform: translate(12px, -12px) rotate(4deg) scale(1.02);
+}
+
+.overlay-about {
+  top: -15px;
+  right: -10px;
+  width: 80%; /* Optional: resize if needed */
+  transform: rotate(0deg);
+}
+.column a:hover .overlay-about {
+  transform: translate(15px, -10px) rotate(6deg);
+}
+
+.overlay-how {
+  bottom: 10px;
+  left: -15px;
+  width: 75%;
+  transform: rotate(0deg);
+}
+.column a:hover .overlay-how {
+  transform: translate(-12px, 15px) rotate(-8deg);
+}
+
+.overlay-issues-1 {
+  top: -20px;
+  left: -20px;
+  width: 60%;
+  transform: rotate(0deg);
+}
+.column a:hover .overlay-issues-1 {
+  transform: translate(-10px, -15px) rotate(-12deg);
+}
+
+.overlay-issues-2 {
+  bottom: -10px;
+  right: -15px;
+  width: 65%;
+  transform: rotate(0deg);
+}
+.column a:hover .overlay-issues-2 {
+  transform: translate(18px, 12px) rotate(10deg);
 }
