@@ -53,76 +53,11 @@ main {
   vertical-align: middle;
 }
 
-/* Target the anchor link container directly */
-.column a {
-  position: relative;         /* CRITICAL: Confines the VHS line mask to the image block boundaries */
-  display: block;             /* Allows width/height metrics to apply properly */
-  width: 100%;
-  height: 350px;              /* Matches your designed design framework height */
-  overflow: hidden;
-  text-decoration: none;
+.column a > * {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
-.nav-img {
-  width: 100%;              
-  height: 100%;            
-  object-fit: contain;        
-  display: block;   
-  transition: filter 0.15s ease;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Generate the static glitch scanlines over the specific link space */
-.column a::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  
-  /* Creates repeating tracking bar lines across the asset footprint */
-  background: linear-gradient(
-    rgba(18, 16, 16, 0) 50%, 
-    rgba(0, 0, 0, 0.25) 50%
-  ), 
-  linear-gradient(
-    90deg, 
-    rgba(255, 0, 0, 0.06), 
-    rgba(0, 255, 0, 0.02), 
-    rgba(0, 0, 255, 0.06)
-  );
-  background-size: 100% 4px, 6px 100%;
-  
-  opacity: 0; 
-  pointer-events: none; /* Passes clicking actions straight down to the link asset */
-}
-
-/* Trigger the combined color distortion and layout shifting when hovering the anchor link */
-.column a:hover > *:not(::after) {
-  filter: contrast(1.4) saturate(1.7) hue-rotate(12deg);
-  animation: vhs-jitter 0.12s infinite; /* Isolates the jitter shake strictly to the asset */
-}
-
-.column a:hover::after {
-  opacity: 1;
-  animation: vhs-scroll 3s linear infinite;
-}
-
-@keyframes vhs-scroll {
-  0% { background-position: 0 0; }
-  100% { background-position: 0 100%; }
-}
-
-@keyframes vhs-jitter {
-  0% { transform: scale(1) translate(0, 0); }
-  20% { transform: scale(1.01) translate(-2px, 1px); } 
-  40% { transform: scale(0.99) translate(1px, -1px); }
-  60% { transform: scale(1.01) translate(-1px, -2px); }
-  80% { transform: scale(1) translate(2px, 2px); }
-  100% { transform: scale(1) translate(0, 0); }
+.column a:hover > * {
+  transform: rotate(4deg) scale(1.02); 
+  filter: contrast(1.1);               
 }
