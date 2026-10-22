@@ -85,13 +85,13 @@ main {
 }
 
 .overlay-about {
-  top: -5px;
-  right: -5px;
+  top: -15px;
+  right: -15px;
   width: 80%; /* Optional: resize if needed */
   transform: rotate(0deg);
 }
 .column a:hover .overlay-about {
-  transform: translate(15px, -10px) rotate(6deg);
+  transform: translate(1px, -5px) rotate(6deg);
 }
 
 .overlay-how {
