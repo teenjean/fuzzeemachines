@@ -53,7 +53,31 @@ main {
   vertical-align: middle;
 }
 
-.column::after {
+/* Target the anchor link container directly */
+.column a {
+  position: relative;         /* CRITICAL: Confines the VHS line mask to the image block boundaries */
+  display: block;             /* Allows width/height metrics to apply properly */
+  width: 100%;
+  height: 350px;              /* Matches your designed design framework height */
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.nav-img {
+  width: 100%;              
+  height: 100%;            
+  object-fit: contain;        
+  display: block;   
+  transition: filter 0.15s ease;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Generate the static glitch scanlines over the specific link space */
+.column a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -61,6 +85,7 @@ main {
   width: 100%;
   height: 100%;
   
+  /* Creates repeating tracking bar lines across the asset footprint */
   background: linear-gradient(
     rgba(18, 16, 16, 0) 50%, 
     rgba(0, 0, 0, 0.25) 50%
@@ -73,30 +98,33 @@ main {
   );
   background-size: 100% 4px, 6px 100%;
   
-  opacity: 0;
-  pointer-events: none; 
+  opacity: 0; 
+  pointer-events: none; /* Passes clicking actions straight down to the link asset */
 }
 
-.column:hover .nav-img {
-  /* Chromatic aberration tint shifts (RGB separation) */
+/* Trigger the combined color distortion and layout shifting when hovering the anchor link */
+.column a:hover .nav-img {
   filter: contrast(1.4) saturate(1.6) hue-rotate(10deg);
-  animation: vhs-jitter 0.15s infinite;
+  animation: vhs-jitter 0.12s infinite;
 }
 
-.column:hover::after {
+.column a:hover::after {
   opacity: 1;
-  animation: vhs-scroll 4s linear infinite;
+  animation: vhs-scroll 3s linear infinite;
 }
 
+/* Keyframes for the analog tracking tape roll vertical sweep */
 @keyframes vhs-scroll {
   0% { background-position: 0 0; }
   100% { background-position: 0 100%; }
 }
 
+/* Keyframes for the tracking horizontal wobble twitch distortion */
 @keyframes vhs-jitter {
   0% { transform: translate(0, 0); }
-  20% { transform: translate(-1px, 2px); }
+  20% { transform: translate(-2px, 1px); }
   40% { transform: translate(1px, -1px); }
-  60% { transform: translate(-2px, -2px); }
-  80% { transform: translate(2px, 1px); }
+  60% { transform: translate(-1px, -2px); }
+  80% { transform: translate(2px, 2px); }
   100% { transform: translate(0, 0); }
+}
