@@ -87,7 +87,7 @@ main {
 .overlay-about {
   top: -15px;
   right: -15px;
-  width: 80%; /* Optional: resize if needed */
+  width: 100%; /* Optional: resize if needed */
   transform: rotate(0deg);
 }
 .column a:hover .overlay-about {
@@ -95,13 +95,13 @@ main {
 }
 
 .overlay-how {
-  bottom: 10px;
-  left: -15px;
-  width: 75%;
+  bottom: 75px;
+  left: 100px;
+  width: 100%;
   transform: rotate(0deg);
 }
 .column a:hover .overlay-how {
-  transform: translate(100px, 100px) rotate(0deg);
+  transform: translate(130px, 100px) rotate(0deg);
 }
 
 .overlay-issues-1 {
