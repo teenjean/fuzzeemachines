@@ -70,7 +70,7 @@ main {
   height: 350px;
   object-fit: contain;
   opacity: 0;
-  pointer-events: none; /* Prevents hover flickering */
+  pointer-events: none;
 }
 
 
@@ -87,7 +87,7 @@ main {
 .overlay-about {
   top: -15px;
   right: -15px;
-  width: 100%; /* Optional: resize if needed */
+  width: 100%; 
   transform: rotate(0deg);
 }
 .column a:hover .overlay-about {
