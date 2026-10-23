@@ -46,6 +46,9 @@ Here are resources to create your own web-based digital zines:
 * [Bitsy](https://bitsy.org/)
 * [p5.js](https://p5js.org/) - visual Javascript library >:3
 
+Readings:
+* [Black Gooey Universe](https://static1.squarespace.com/static/59238d36d2b8575d127794a4/t/5a60bdecf9619a7f881b02a0/1516289526013/UNBAG_2_AmericanArtist.pdf)
+
 Stay cool.
 
 No, seriously, it's hot as fucking hell out there.
