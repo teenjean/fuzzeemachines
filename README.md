@@ -14,6 +14,10 @@ past are perhaps more important than ever.
 That said, I hope for this to be a haven to share my work, share the code, and be able to collaborate on web + physical zines 
 with makers who are passionate about the same thing and want to share their own work as well.
 
+Here's the link to the fuzzee machines web zine. How it'll evolve? Who knows. But it's exciting. To me, anyway.
+
+[if whatever happens is meant to happen then whatever](https://teenjean.github.io/fuzzeemachines/)
+
 Here are a couple of links to archives full of zines:
 
 * [Glasgow Zine Library](https://www.glasgowzinelibrary.com/zine-collection)
