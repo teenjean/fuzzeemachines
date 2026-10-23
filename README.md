@@ -41,6 +41,7 @@ Here are resources to create your own web-based digital zines:
 * [Hotglue](https://hotglue.me/what)
 * [Standing on My Soapbox Lovingly Lecturing About Zines by Melissa Mursch-Rodriguez](https://syllabusproject.org/standing-on-my-soapbox-lovingly-lecturing-about-zines/)
 * [Sprout Distro](https://www.sproutdistro.com/)
+* [Spectrolite](https://spectrolite.app/)
 * [Twine](https://twinery.org/)
 * [Bitsy](https://bitsy.org/)
 * [p5.js](https://p5js.org/) - visual Javascript library >:3
