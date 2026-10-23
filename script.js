@@ -28,8 +28,6 @@ iteration += 1 / 3;
 }, 50);
 }
 
-// Trigger on hover (or call startScramble() directly for page load)
-
 element.addEventListener("mouseover", startScramble);
 });
 
