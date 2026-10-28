@@ -2,6 +2,11 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 }
 
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
 html {
   height: 100%;
 }
@@ -19,9 +24,9 @@ body {
 }
 
 #about-container {
-  padding: 50px;
-  margin: 10px 150px 10px 150px;
-  border: 20px solid lemonchiffon;
+  padding: 0px 50px 50px 50px;
+  margin: 0 100px 100px 100px;
+  border: 0px solid lemonchiffon;
 }
 
 main {
