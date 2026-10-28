@@ -19,9 +19,9 @@ body {
 }
 
 #about-container {
-  padding: 30px;
-  margin: 150px;
-  border: 2px solid lemonchiffon;
+  padding: 50px;
+  margin: 10px 150px 10px 150px;
+  border: 20px solid lemonchiffon;
 }
 
 main {
