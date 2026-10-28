@@ -18,6 +18,12 @@ body {
   box-sizing: border-box;
 }
 
+#about-container {
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid lemonchiffon;
+}
+
 main {
   display: flex;
   flex: 1;                  
