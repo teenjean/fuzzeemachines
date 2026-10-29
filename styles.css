@@ -136,25 +136,39 @@ main {
   transform: translate(130px, -80px) rotate(5deg);
 }
 
-ul {
-  list-style-type: none;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lemonchiffon;
+  z-index: 1000;  /* Ensures it stays above other content */
+}
+
+/* 3. Center the links horizontally using Flexbox */
+.nav-links {
+  display: flex;
+  justify-content: center; /* Centers the links horizontally */
+  align-items: center;     /* Centers the links vertically */
+  list-style: none;        /* Removes default bullet points */
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: lemonchiffon;
 }
 
-li a {
+/* 4. Style individual link items */
+.nav-links li a {
   display: block;
   color: black;
-  padding: 8px 16px;
-  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-/* Change the link and background color on hover */
-li a:hover {
-  background-color: rgb(110, 110, 255);
+/* 5. Add a hover effect */
+.nav-links li a:hover {
+  background-color: #7860ff;
   color: lemonchiffon;
-  font-weight: bold;
 }
