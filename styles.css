@@ -135,3 +135,25 @@ main {
 .column a:hover .overlay-issues-2 {
   transform: translate(130px, -80px) rotate(5deg);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: lemonchiffon;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: rgb(110, 110, 255);
+  color: lemonchiffon;
+}
