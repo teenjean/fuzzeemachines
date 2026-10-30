@@ -142,20 +142,18 @@ main {
   left: 0;
   width: 100%;
   background-color: lemonchiffon;
-  z-index: 1000;  /* Ensures it stays above other content */
+  z-index: 1000; 
 }
 
-/* 3. Center the links horizontally using Flexbox */
 .nav-links {
   display: flex;
-  justify-content: center; /* Centers the links horizontally */
-  align-items: center;     /* Centers the links vertically */
-  list-style: none;        /* Removes default bullet points */
+  justify-content: center; 
+  align-items: center;     
+  list-style: none;        
   margin: 0;
   padding: 0;
 }
 
-/* 4. Style individual link items */
 .nav-links li a {
   display: block;
   color: black;
@@ -164,10 +162,10 @@ main {
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
-/* 5. Add a hover effect */
 .nav-links li a:hover {
   background-color: #7860ff;
   color: lemonchiffon;
