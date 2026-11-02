@@ -35,6 +35,12 @@ body {
   border: 0px solid lemonchiffon;
 }
 
+#issues-container {
+  padding: 0px 70px 200px 70px;
+  margin: 0 200px 200px 200px;
+  border: 0px solid lemonchiffon;
+}
+
 main {
   display: flex;
   flex: 1;                  
