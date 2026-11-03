@@ -188,7 +188,7 @@ main {
   transform: rotate(-2deg) scale(1.01);
 }
 
-.issues-column h6 {
+.issues-column h5 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   text-align: center;
