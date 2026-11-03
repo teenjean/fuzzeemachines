@@ -116,6 +116,7 @@ main {
   width: 100%; 
   transform: rotate(0deg);
 }
+
 .column a:hover .overlay-about {
   transform: translate(-70px, -60px) rotate(6deg);
 }
@@ -137,6 +138,7 @@ main {
   width: 100%;
   transform: rotate(0deg);
 }
+
 .column a:hover .overlay-issues-1 {
   transform: translate(40px, -130px) rotate(-12deg);
 }
@@ -147,8 +149,43 @@ main {
   width: 90%;
   transform: rotate(0deg);
 }
+
 .column a:hover .overlay-issues-2 {
   transform: translate(130px, -80px) rotate(5deg);
+}
+
+.issues-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;         
+  gap: 16px;                
+  width: 90%;              
+  max-width: 1000px;        
+  box-sizing: border-box;
+  margin: auto;            
+}
+
+.issues-column {
+  flex: 1 1 0px;            
+  min-width: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;              
+}
+
+.issues-column a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.issues-column a > img {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.issues-column a:hover .nav-img {
+  filter: contrast(1.1);
+  transform: rotate(-2deg) scale(1.01);
 }
 
 .navbar {
