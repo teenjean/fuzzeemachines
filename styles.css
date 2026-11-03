@@ -188,6 +188,13 @@ main {
   transform: rotate(-2deg) scale(1.01);
 }
 
+.issues-column h6 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 12px 0; 
+}
+
 .navbar {
   position: fixed;
   top: 0;
