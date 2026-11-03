@@ -99,7 +99,6 @@ main {
   pointer-events: none;
 }
 
-
 .column a:hover .nav-img {
   filter: contrast(1.1);
   transform: rotate(-2deg) scale(1.01);
