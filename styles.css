@@ -38,8 +38,8 @@ body {
 }
 
 #issues-container {
-  padding: 0px 100px 300px 100px;
-  margin: 0 300px 300px 300px;
+  padding: 0px 100px 20px 100px;
+  margin: 0 300px 30px 300px;
   border: 0px solid lemonchiffon;
   text-align: center;
 }
