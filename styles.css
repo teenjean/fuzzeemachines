@@ -9,7 +9,7 @@ h2 {
 
 h3 {
   font-family: 'Courier New', Courier, monospace;
-  font-style: normal;
+  font-style: normal important!;
   line-height: 1;
 }
 
