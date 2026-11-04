@@ -7,6 +7,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  line-height: 1;
+}
+
 html {
   height: 100%;
 }
