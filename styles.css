@@ -7,9 +7,9 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.index-tagline {
   font-family: 'Courier New', Courier, monospace;
-  font-style: normal important!;
+  font-style: italic;
   line-height: 1;
 }
 
