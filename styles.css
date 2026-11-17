@@ -43,18 +43,17 @@ body {
   text-align: center;
 }
 
-#h1-container {
-  padding: 0px 20px 20px 20px;
-  margin: 0 30px 30px 30px;
-  border: 0px solid lemonchiffon;
+.inprogress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 2rem;
 }
 
-#inprogress-img {
-  padding: 0px 20px 20px 20px;
-  margin: 0 30px 30px 30px;
-  border: 0px solid lemonchiffon;
-  align-items: center;
+.inprogress-container img {
+  max-width: 100%;
+  height: auto;
 }
 
 #issues-container {
