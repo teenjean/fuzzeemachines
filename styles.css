@@ -43,6 +43,15 @@ body {
   text-align: center;
 }
 
+#h1-container {
+  padding: 0px 100px 300px 100px;
+  margin: 0 300px 300px 300px;
+  border: 0px solid lemonchiffon;
+  text-align: center;
+  font-family: sans-serif; 
+  font-weight: bold;
+}
+
 #issues-container {
   padding: 0px 100px 20px 100px;
   margin: 0 300px 30px 300px;
