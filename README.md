@@ -12,9 +12,9 @@ I think zines are cool and being able to preserve physical and digital histories
 past are perhaps more important than ever. 
 
 That said, I hope for this to be a haven to share my work, share the code, and be able to collaborate on web + physical zines 
-with makers who are passionate about the same thing and want to share their own work as well.
+with makers who are passionate about the same thing and want to share their own work as well. Now, I call this a web zine. At the moment it's more a template for others to start their own site AS WELL AS an archive of resources to learn speculative prototyping and design with tutorials, links to residencies, opportunities, etc., etc. 
 
-Here's the link to the fuzzee machines web zine. How it'll evolve? Who knows. But it's exciting. To me, anyway.
+Here's the link to the fuzzee machines web zine. How it'll evolve? Who knows. I anticipate more ways people can interact and leave an impression on the web zine itself. We'll see. But it's exciting. To me, anyway.
 
 ## [if whatever happens is meant to happen then whatever](https://teenjean.github.io/fuzzeemachines/)
 
